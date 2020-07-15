@@ -1,0 +1,9 @@
+mutation($gardenId: String!, $width: Int!, $height: Int!) {
+  modifyGarden(
+    modifyGardenInput: { id: $gardenId, width: $width, height: $height }
+  ) {
+    id
+    width
+    height
+  }
+}

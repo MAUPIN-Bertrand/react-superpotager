@@ -1,0 +1,7 @@
+mutation($owner: ID!, $tagLine: String!) {
+  changeUserInfos(changeInfosInput: { userId: $owner, tagLine: $tagLine }) {
+    id
+    email
+    tagLine
+  }
+}

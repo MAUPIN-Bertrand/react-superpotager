@@ -1,0 +1,3 @@
+mutation($plantID: String!) {
+  deletePlant(plantId: $plantID)
+}

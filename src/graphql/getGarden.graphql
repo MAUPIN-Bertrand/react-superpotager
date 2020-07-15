@@ -1,0 +1,16 @@
+query($gardenId: String!) {
+  garden(gardenId: $gardenId) {
+    id
+    width
+    height
+    plantings {
+      id
+      icon
+      plantId
+      xPosition
+      yPosition
+      width
+      height
+    }
+  }
+}

@@ -1,0 +1,21 @@
+mutation addPlanting(
+  $gardenID: String!
+  $plantID: String!
+  $xPosition: Int!
+  $yPosition: Int!
+  $width: Int!
+  $height: Int!
+) {
+  addPlanting(
+    addPlantingInput: {
+      gardenID: $gardenID
+      plantID: $plantID
+      xPosition: $xPosition
+      yPosition: $yPosition
+      width: $width
+      height: $height
+    }
+  ) {
+    id
+  }
+}

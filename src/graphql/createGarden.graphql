@@ -1,0 +1,11 @@
+mutation ($owner:String!){
+  createGarden(
+    createGardenInput:{
+      width:30
+      height:30
+      owner:$owner
+    }
+  ){
+    id
+  }
+}

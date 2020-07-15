@@ -1,0 +1,7 @@
+query plants {
+  plants {
+    id
+    name
+    icon
+  }
+}

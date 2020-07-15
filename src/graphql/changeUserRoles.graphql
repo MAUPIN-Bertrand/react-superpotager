@@ -1,0 +1,6 @@
+mutation changeUserRoles($userId: ID!, $roles: [RolesEnum!]!) {
+  changeUserRoles(changeRolesInput: { userId: $userId, roles: $roles }) {
+    id
+    roles
+  }
+}

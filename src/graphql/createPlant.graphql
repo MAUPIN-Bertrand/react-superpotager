@@ -1,0 +1,7 @@
+mutation($name: String!, $icon: String!) {
+  createPlant(createPlantInput: { name: $name, icon: $icon }) {
+    id
+    name
+    icon
+  }
+}

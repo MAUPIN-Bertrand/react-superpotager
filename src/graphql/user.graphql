@@ -1,0 +1,13 @@
+query user($userId: String!) {
+  user(userId: $userId) {
+    id
+    email
+    username
+    tagLine
+    gardens {
+      id
+      width
+      height
+    }
+  }
+}
