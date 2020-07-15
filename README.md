@@ -1,3 +1,9 @@
+React JS application with [Apollo GraphQL](https://www.apollographql.com/)
+
+A working version hosted on AWS can be found <a href="http://froupinfo-superpotager-front-reactjs.s3-website.eu-west-3.amazonaws.com/">here</a>
+
+The back end build using [Nest](https://github.com/nestjs/nest) can be found here : [superpotager-api-graphql](https://github.com/MAUPIN-Bertrand/superpotager-api-graphql)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
